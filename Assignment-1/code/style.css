@@ -1,1 +1,135 @@
 
+    .container{
+        display:flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+        height:100vh;
+        width:95%;
+        }
+    
+    @media only screen and (min-width: 320px){
+        .firstrow{
+        display: flex;
+        flex-direction: column;
+        height:25%;
+        width:100%;
+        justify-content: space-around;
+        }
+    
+        .yellow{
+        background-color: rgb(236, 236, 79);
+        height:45%;
+        width:100%;
+        /* margin-top:10px;
+        margin-bottom:10px; */
+        }
+    
+        .secondrow{
+        background-color:rgb(236, 16, 16); 
+        width:100%;
+        height:30%;
+        }
+    
+        .thirdrow{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height:33%;
+        justify-content: space-around;
+        }
+    
+        .blue{
+        background-color: rgb(93, 93, 235);
+        width:100%;
+        height:24vh;
+        /* margin-top:10px; */
+        margin-bottom:10px;
+        }
+    
+      
+    
+    }
+    
+    
+    
+    @media only screen and (min-width: 768px){
+        .firstrow{
+        display: flex;
+        flex-direction: row;
+        height:25%;
+        width:100%;
+        justify-content: space-around;
+        }
+    
+        .yellow{
+        background-color: rgb(236, 236, 79);
+        width:45%;
+        height:100%;
+        }
+    
+    
+        .secondrow{
+        background-color:rgb(238, 11, 11); 
+        width:100%;
+        height:33%;
+        }
+    
+        .thirdrow{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width:100%;
+        height:25%;
+        }
+    
+        .blue{
+        background-color: rgb(93, 93, 235);
+        height:10vh;
+        /* margin-top:10px; */
+        margin-bottom:10px;
+        }
+       
+    
+      
+    }
+    
+    
+    @media only screen and (min-width: 1024px){
+        .firstrow{
+        display: flex;
+        flex-direction: row;
+        height:25%;
+        width:100%;
+        justify-content: space-around;
+        }
+    
+        .yellow{
+        background-color: rgb(236, 236, 79);
+        width:45%;
+        height:100%;
+        }
+    
+        .secondrow{
+        background-color:rgb(250, 11, 11); 
+        width:95%;
+        height:30%;
+        }
+    
+        .thirdrow{
+        display: flex;
+        flex-direction: row;
+        width:100%;
+        height:25%;
+        justify-content: space-around;
+        }
+    
+        .blue{
+        background-color: rgb(93, 93, 235);
+        width:28.5%;
+        height:100%;
+        }
+    
+      
+    
+    } 
