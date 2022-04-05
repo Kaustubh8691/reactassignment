@@ -13,7 +13,7 @@
 
 }
 
-.header{
+.Header{
     display: flex;
     align-items: center;
     height:15vh;
@@ -22,11 +22,12 @@
     border-radius: 10px;
 
 }
-#header-para{
+.back{
     font-size:30px;
-    color:silver
+    color:silver;
+    cursor: pointer;
 }
-.header-mid{
+.employee{
     font-Size:15px;
     margin-left: 38.33%;
 }
@@ -36,9 +37,10 @@ button{
     width:100px;
     margin-left: 33.33%;
     background:black;
-    color:white
+    color:white;
+    cursor: pointer;
 }
-.customer-info{
+.customerInfo{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -46,12 +48,37 @@ button{
     height:17vh;
     padding-top: 10px;
     border-radius: 10px;
+    margin-top: 5px;
 }
-span.emploee_data {font-weight: 400;}
-.customer-info h3{
+span.employeedata {
+    font-weight: 700;font-size: 20px;
+}
+.productname {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}.dot {
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .oredr-status {margin-top: 10px;}
+  
+  
+  
+  .order_time {margin-top: 10px;}
+
+.description {
+    padding: 0 5px 0 5px;
+    /* width: 33vw; */
+}
+.employeedata {font-weight: 400;}
+.customerInfo h3{
     margin: 0px 0 10px 10px;
 }
-.order-info{
+.Order{
     display: flex;
     margin-top: 20px;
     border: 1px solid #e1d7d7;
@@ -61,22 +88,23 @@ span.emploee_data {font-weight: 400;}
     background: rgb(241, 241, 241);
     border-radius: 10px;
 }
-#order1{
+.door{
     margin:0px 0px 0px 25%
 }
-.order-para{
+.order_door{
     margin-top:10px
 }
 .order-time{
     margin:0 10px 0 250px
 }
-#time1{
-    margin-top:10px
+.time{
+    margin-top:10px;
+    margin-left: 25%;
 }
-li{
+/* li{
     margin-top: 10px;
-}
-.product-list{
+} */
+.Product{
     display: flex;
     margin-top: 20px;
     border: 1px solid #e1d7d7;
@@ -99,8 +127,9 @@ img{
 .name{
     margin:20px 0 0 30px
 }
-.arr{
+.arrow{
     margin:25px 13px 0 175px;
+    cursor: pointer;
     font-size:40px;
     transform: scaleY(1.5);
     color:silver

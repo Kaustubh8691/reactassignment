@@ -1,13 +1,19 @@
 import React from 'react'
-import Data from './Data';
-function Header(Data) {
+
+function Header(props) {
+  const {object}=props;
     var arrow="<";
   return (
     <div className='Header'>
         <div className='back'>{arrow}</div>
-        <div className='header_detail'>{Data.Name}</div>
+        <div className='employee'>
+          <div className='header_detail'>{object.Name}</div>
+        <div className='id'>{object.EmployeeId}</div>
+        </div>
+        
+        <button>print</button>
     </div>
   )
 }
 
-export default Header;
+export default Header; 

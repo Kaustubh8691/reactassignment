@@ -2,8 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Main from './Component/Main';
-import CustomerInfo from './Component/Customer_info';
+import CustomerInfo from './Component/CustomerInfo';
 import Header from './Component/Header';
+import OrderInfo from './Component/OrderInfo';
+import ProductList from './Component/ProductList';
 
 const User = {
   Name : 'Alan Ford',
@@ -11,18 +13,26 @@ const User = {
   Appointment : '9:00 (24-05-2016)',
   Email : 'alan.form@email.nl',
   phone : '+31123456789',
+  Status : 'In Process',
+  Door : 'Mark',
+  time : '10:25 (05-04-2022)',
+  name: 'Boltaart Bosebessen',
   profileImg:'https://www.w3schools.com/howto/img_avatar.png',
   product_name: "Boltart Bosbessen",
   product_description:
     "This is some random description about the product mentioned above"
 }
-var arrow="<"
+
 function App() {
   return (
     <div className="site-container">
     {/* Start Your code here */}
+    <Header object={User}/>
+    <CustomerInfo object={User}/>
+    <OrderInfo object={User}/>
+    <ProductList object={User}/>
     
-    <div className='header'>
+    {/* <div className='header'>
       <p id='header-para'>{arrow}</p>
       <div className='header-mid'>
       <h3>{User.Name}</h3>
@@ -64,7 +74,7 @@ function App() {
         <p>{User.product_description}</p>
       </div>
       <div className='arr'><p>{arrow}</p></div>
-    </div>
+    </div> */}
   </div>
   );
 }
