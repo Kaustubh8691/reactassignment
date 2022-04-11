@@ -14,7 +14,7 @@ export default function Card({obj}){
                 <div className="more">....</div>
             </div>
             <div>
-                <img src={require(`../Mock-data${PostImage}`)} alt="images" width="100%"/>
+                <img src={require(`../Images/${PostImage}`)} alt="images" width="100%"/>
             </div>
             <div className="foot">
                 <div>
