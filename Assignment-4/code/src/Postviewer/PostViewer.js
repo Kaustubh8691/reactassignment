@@ -1,5 +1,5 @@
 import React from 'react'
-import cover from '../Images/cover.jpg'
+import cover from '../Images/cover2.jpg'
 import {Link} from 'react-router-dom'
 
 export default function PostViewer() {

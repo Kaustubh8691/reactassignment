@@ -13,7 +13,7 @@ export default function Card({obj}){
                 </div>
                 <div className="more">....</div>
             </div>
-            <div>
+            <div className="cardimage">
                 <img src={require(`../Images/${PostImage}`)} alt="images" width="100%"/>
             </div>
             <div className="foot">

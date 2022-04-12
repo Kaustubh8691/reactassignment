@@ -4,22 +4,22 @@
             {"name":"Siva",
             "location":"Bengaluru",
             "likes":1000,
-            "description": "Kick start your career",
-            "PostImage": "pic1.jpg",
+            "description": "Just looking for you #king",
+            "PostImage": "lion.jpg",
             "date":" new Date()"
             },
             {"name":"Neeraj",
             "location":"Pune",
-            "likes":30,
-            "description": "Sample Description",
-            "PostImage": "pic2.jpg",
+            "likes":1524,
+            "description": "love it #car #justthink",
+            "PostImage": "car.jpg",
             "date": "new Date()"
             },
             {"name":"Rahul",
             "location":"Hyderabad",
-            "likes":30,
-            "description": "Sample Description for Post",
-            "PostImage": "pic3.jpg",
+            "likes":3000,
+            "description": "wildlife pease #wildlife #photography",
+            "PostImage": "ele.jpg",
             "date": "new Date()"
             }
             ]
